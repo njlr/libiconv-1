@@ -1,0 +1,39 @@
+cxx_binary(
+  name = 'genutf8',
+  srcs = [
+    'genutf8.c',
+  ],
+  deps = [
+    '//:libiconv',
+  ],
+)
+
+cxx_binary(
+  name = 'test-shiftseq',
+  srcs = [
+    'test-shiftseq.c',
+  ],
+  deps = [
+    '//:libiconv',
+  ],
+)
+
+cxx_binary(
+  name = 'test-to-wchar',
+  srcs = [
+    'test-to-wchar.c',
+  ],
+  deps = [
+    '//:libiconv',
+  ],
+)
+
+cxx_binary(
+  name = 'uniq-u',
+  srcs = [
+    'uniq-u.c',
+  ],
+  deps = [
+    '//:libiconv',
+  ],
+)

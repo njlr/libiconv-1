@@ -3,4 +3,9 @@ include/iconv.h
 include/libcharset.h
 srclib/unitypes.h
 srclib/uniwidth.h
-
+/build/
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
